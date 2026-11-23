@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Immagine segnaposto del profilo">
+  <!-- Immagine generica segnaposto: sostituirla con la foto vera -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#27272a"/>
+      <stop offset="1" stop-color="#18181b"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="300" cy="235" r="105" fill="#3f3f46"/>
+  <path d="M110 560c18-118 96-190 190-190s172 72 190 190" fill="#3f3f46"/>
+</svg>
