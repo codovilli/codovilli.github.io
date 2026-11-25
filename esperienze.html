@@ -58,10 +58,11 @@
                 <article class="card" id="progetto-bonfiglioli">
                     <h4 class="card-title">Progetto Bonfiglioli</h4>
                     <p class="date">dal 2023</p>
-                    <p>Sviluppo e manutenzione di quattro siti (Bonfiglioli, BRT Spare Parts, Selcom, India) da un'unica istanza Pimcore; catalogo prodotti, gestione mercati, area documenti con accesso tramite registrazione utente, creazione dinamica di form con campi configurabili e invio dei lead verso Salesforce. Implementazione motore di ricerca interno basato su Elasticsearch (crawler, definizione degli indici, normalizzazione dei dati, reindicizzazione schedulata) e integrazione con un endpoint per arricchire i risultati della ricerca con i dati ottenuti da un sistema RAG (Retrieval-Augmented Generation) addestrato sulla manualistica tecnica dei prodotti, protezione anti-spam (reCAPTCHA, honeypot), tracciamento con Google Tag Manager, generazione di sitemap per sito e per mercato, gestione dei domini legacy.</p>
+                    <p>Sviluppo e manutenzione di quattro siti (Bonfiglioli, BRT Spare Parts, Selcom, India) su un'unica istanza Pimcore; catalogo prodotti, gestione mercati, area documenti con accesso tramite registrazione utente, creazione dinamica di form con campi configurabili e invio dei lead verso Salesforce. Implementazione motore di ricerca interno basato su Elasticsearch (crawler, definizione degli indici, normalizzazione dei dati, reindicizzazione schedulata) e integrazione con un endpoint per arricchire i risultati della ricerca con i dati ottenuti da un sistema RAG (Retrieval-Augmented Generation) addestrato sulla manualistica tecnica dei prodotti, protezione anti-spam (reCAPTCHA, honeypot), tracciamento con Google Tag Manager, generazione di sitemap per sito e per mercato, gestione dei domini legacy.</p>
                     <ul class="tags" aria-label="Tecnologie del Progetto Bonfiglioli">
                         <li class="tag">Pimcore</li>
                         <li class="tag">Symfony</li>
+                        <li class="tag">Redis</li>
                         <li class="tag">Elasticsearch</li>
                         <li class="tag">RAG</li>
                         <li class="tag">Salesforce</li>
@@ -72,7 +73,7 @@
                 <article class="card" id="progetto-scm">
                     <h4 class="card-title">Progetto e-shop B2B SCM Group</h4>
                     <p class="date">2015–2024</p>
-                    <p>Realizzazione e manutenzione pluriennale della piattaforma e-commerce con più website (Europa, Nord America e CMS), listini e regole di vendita differenziati, personalizzazione di carrello, checkout, storico ordini e area clienti. Integrazione dell’e-commerce con i sistemi gestionali aziendali (ERP Oracle EBS e Microsoft Dynamics AX) tramite web service SOAP / XML (sincronizzazione di prodotti, prezzi, disponibilità, clienti e ordini, procedure di import/export schedulate anche via SFTP), integrazione dei gateway di pagamento con carta di credito (Payeezy/First Data, Axerve GestPay) con gestione degli ordini falliti e integrazione con il servizio esterno Sygest per mostrare i cataloghi interattivi dei prodotti all'interno della scheda prodotto con fallback automatico verso la documentazione del DMS.</p>
+                    <p>Realizzazione e manutenzione pluriennale della piattaforma e-commerce con più website (Europa, Nord America e CMS), listini e regole di vendita differenziati, personalizzazione di carrello, checkout, storico ordini e area clienti. Integrazione con i sistemi gestionali aziendali (ERP Oracle EBS e Microsoft Dynamics AX) tramite web service SOAP / XML (sincronizzazione di prodotti, prezzi, disponibilità, clienti e ordini, procedure di import/export schedulate anche via SFTP), integrazione dei gateway di pagamento con carta di credito (Payeezy/First Data, Axerve GestPay) con gestione degli ordini falliti e integrazione del catalogo ricambi interattivo Sygest Web Spare Parts nella scheda prodotto con fallback automatico verso la documentazione del DMS.</p>
                     <ul class="tags" aria-label="Tecnologie del Progetto e-shop B2B SCM Group">
                         <li class="tag">Magento 1</li>
                         <li class="tag">Oracle EBS</li>
@@ -80,6 +81,8 @@
                         <li class="tag">SOAP / XML</li>
                         <li class="tag">Payeezy</li>
                         <li class="tag">Axerve GestPay</li>
+                        <li class="tag">Sygest Web Spare Parts</li>
+                        <li class="tag">Docker</li>
                     </ul>
                 </article>
                 <article class="card" id="progetto-ddp">
@@ -101,9 +104,9 @@
                 <ul class="list">
                     <li>Progettazione, sviluppo e manutenzione di siti, portali ed e-commerce per aziende del settore industriale e manifatturiero, spesso multilingua e con più siti gestiti da un’unica piattaforma.</li>
                     <li>Programmazione avanzata ad oggetti in PHP con particolare riferimento al framework Symfony e ai relativi standard (Composer, autoloading PSR, dependency injection, comandi da console).</li>
-                    <li><strong>Sviluppo su Pimcore</strong> (CMS, PIM e DAM basato su Symfony), dal 2021 piattaforma principale dei progetti aziendali: definizione delle classi DataObject, sviluppo di areabrick (blocchi di contenuto modulari per i redattori), controller, estensioni e template Twig, gestione di siti multipli e multilingua da un’unica installazione.</li>
+                    <li><strong>Sviluppo su Pimcore</strong> (CMS, PIM e DAM basato su Symfony): definizione delle classi DataObject, sviluppo di areabrick (blocchi di contenuto modulari per i redattori), controller, estensioni e template Twig, gestione di siti multipli e multilingua da un’unica installazione, integrazione con servizi esterni tramite web service.</li>
                     <li>Realizzazione di altri portali Pimcore per clienti di rilievo del settore industriale (es. Groppi, Krona, FIM, Uninsieme, Robopac) e del sito aziendale di Extera.</li>
-                    <li><strong>Sviluppo su Magento:</strong> progettazione, sviluppo e manutenzione di piattaforme e-commerce B2B multi-website e multilingua; creazione di moduli backend personalizzati, estensione delle logiche di catalogo, listini e regole di vendita differenziati per mercato, personalizzazione dei flussi di carrello, checkout e area clienti.</li>
+                    <li><strong>Sviluppo su Magento 1:</strong> progettazione, sviluppo e manutenzione di piattaforme e-commerce B2B multi-website e multilingua; creazione di moduli backend personalizzati, estensione delle logiche di catalogo, listini e regole di vendita differenziati per mercato, personalizzazione dei flussi di carrello, checkout e area clienti, integrazione con servizi esterni tramite web service.</li>
                     <li>Realizzazione e manutenzione di altri e-commerce su Magento per realtà commerciali e retail (es. Marlù Gioielli, Antica Porta del Titano).</li>
                     <li>Gestione e configurazione di domini e DNS tramite Cloudflare (es. progetti Krona e sito aziendale Extera), con implementazione di protezioni Anti-DDoS, regole WAF personalizzate (Custom Rules), filtri anti-bot e <em>Transform Rules</em> per la manipolazione degli header HTTP.</li>
                     <li>Sviluppo frontend in collaborazione con il team grafico: HTML5, Twig, SCSS, JavaScript ES6+, framework UIkit, build con Webpack Encore e Vite, prototipi di markup con Handlebars e Storybook, attenzione all’accessibilità (WCAG).</li>
